@@ -1,0 +1,10 @@
+BOT_TOKEN = "7090687777:AAF3C9_NXMDrR7rexV-895QkhJRc5sYhwmY"
+
+DOGS_PIC_URL = "https://masterpiecer-images.s3.yandex.net/9586e0deb07711ee8f9e5e02d8de8a56:upscaled"
+DOG_PIC_FILE_ID = "AgACAgQAAxkDAAPtZfiuhOe_NegUBDkWg8Vk1dncUGgAAs7DMRuMXMhTm_qnL1YeP78BAAMCAAN5AAM0BA"
+
+BOT_ADMIN_USER_IDS = [
+    123,
+    1039918686,
+    456,
+]
