@@ -20,6 +20,7 @@
 - Добавьте в обработку inline запроса выбор локальной валюты из состояния, если она указана (по аналогии с целевой валютой);
 - Добавьте новый обработчик inline запроса, где после суммы указана исходная валюта, которую нужно конвертировать, например `@MyBot 1000 IDR`;
 - Добавьте новый обработчик inline запроса, где после суммы указаны исходная и целевая валюта, верните результат в соответствии с запросом, например `@MyBot 1000 IDR INR`;
+- Установите сохранение состояний в боте.
 
 ### Подсказки
 Если бот не получает обновления inline query, попробуйте указать `allowed_updates=[]` в [метод `infinity_polling`](https://pytba.readthedocs.io/ru/latest/sync_version/index.html#telebot.TeleBot.infinity_polling).
@@ -28,5 +29,6 @@
 
 ### Ссылки
 - Фреймворк pyTelegramBotAPI на GitHub: https://github.com/eternnoir/pyTelegramBotAPI/
-- [Метод `infinity_polling`](https://pytba.readthedocs.io/ru/latest/sync_version/index.html#telebot.TeleBot.infinity_polling)
+- [Метод `infinity_polling` в `TeleBot`](https://pytba.readthedocs.io/ru/latest/sync_version/index.html#telebot.TeleBot.infinity_polling)
 - [Поле `allowed_updates` в методе `getUpdates`](https://core.telegram.org/bots/api#getupdates:~:text=testing%20purposes%20only.-,allowed_updates,-Array%20of%20String)
+- [Метод `enable_saving_states` в `TeleBot`](https://pytba.readthedocs.io/ru/latest/sync_version/index.html#telebot.TeleBot.enable_saving_states)
