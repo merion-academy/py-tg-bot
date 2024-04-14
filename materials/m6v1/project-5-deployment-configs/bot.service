@@ -1,0 +1,13 @@
+[Unit]
+Description=Python Bot Demo Merion
+After=network.target
+
+[Service]
+User=john
+Environment=PYTHONUNBUFFERED=1
+WorkingDirectory=/home/john/projects/m5-project
+ExecStart=/home/john/projects/m5-project/venv/bin/python main.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
